@@ -1827,7 +1827,7 @@ class SimpleTurtle(object):
         self._update_real_turtle()
         self._turtle.backward(distance)
 
-    def left(self, angle):
+    def left(self, angle: object) -> object:
         """
         Makes this SimpleTurtle turn (i.e. spin) left the given distance
         (in degrees).  Example (assuming  sally  is an rg.SimpleTurtle):
